@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webNA", "webNA\webNA.csproj", "{541B1AD1-64F0-47AD-A9BA-EBAAD59E12AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{EDA50544-DA75-47C6-BC77-BA907E55A8D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{541B1AD1-64F0-47AD-A9BA-EBAAD59E12AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541B1AD1-64F0-47AD-A9BA-EBAAD59E12AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541B1AD1-64F0-47AD-A9BA-EBAAD59E12AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541B1AD1-64F0-47AD-A9BA-EBAAD59E12AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA50544-DA75-47C6-BC77-BA907E55A8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA50544-DA75-47C6-BC77-BA907E55A8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA50544-DA75-47C6-BC77-BA907E55A8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA50544-DA75-47C6-BC77-BA907E55A8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE379F11-00BF-4A75-A245-AAA610AD1E73}
+	EndGlobalSection
+EndGlobal

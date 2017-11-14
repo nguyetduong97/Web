@@ -1,0 +1,111 @@
+﻿@{
+    ViewBag.Title = "_header";
+}
+<div>
+    <div class="header">
+        <div class="container">
+            <div class="row header-top">
+                <div class="col-md-8">
+                    <div class="col-md-5">
+                        <div class="logo">
+                            <img src="~/Content/image/logo.png" >
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <br />
+                        <div class="slogan" id="h1">
+                            <p>Ẩm thực nhà em </p>
+                        </div>
+                        <div class="slogan" id="h2">
+                            <p>Hương vị tâm hồn cuộc sống </p>
+                        </div>
+                        <div class="slogan" id="h3">
+                            <p> Xứ Nghệ </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="hotline-email">
+                        Hotline: 0962861421 &nbsp;
+                        Email: admin@gmal.com
+                    </p>
+                    <br />
+                    <div class="row search">
+                        <input type="text" class="key-timkiem" value="Nhập từ khóa tìm kiếm..."
+                         onfocus="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}" ;
+                         onblur="if(this.value==' '){this.value=='Nhập từ khóa tìm kiếm...'};" />
+                        <input type="button" class="icon-search" value="Tìm Kiếm" onclick="SEARCH_btn()"></>
+                        <script>
+                            function SEARCH_btn() {
+                                var key = (".key-timkiem").var().replace("/g", "+");
+                                if (key.lengh < 2 || (".key-timkiem").var() == 'Nhập từ khóa tìm kiếm...') {
+                                    (".key-timkiem").focus();
+                                }
+                                else key = ''
+                            }
+                            (".key-timkiem").keypress(function (event) {
+                                var keycode = (event.keycode ? event.keycode : event.which);
+                                if (keycode == 20) {
+                                    SEARCH_btn();
+                                }
+                            });
+                        </script>
+                        <div class="cart">
+                            <a href="#" class="cart-add">
+                                <img src="~/Content/image/cart.png" />
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div><br />
+                    <div class="login-regis">
+                        <a href="./DangNhap" class="login-window button">Đăng Nhập</a>  
+                        <a href="./DangKy" class="login-regis button">Đăng Ký</a>                           
+                    </div>                      
+                </div>                   
+            </div>
+        </div>
+    <hr class=" row hr" />
+ </div>
+      <div class="container">
+          <div class="top nav menu_desktop" id="menu">
+             <div class="row menu_desktop">
+                 <div class="col-md-11">
+                     <a class="col-md-3" href="./Trangchu">TRANG CHỦ</a>
+                     <a class="col-md-2" href="./GioiThieu">GIỚI THIỆU</a>
+                     <a class="col-md-2" href="./SanPham">SẢN PHẨM</a>
+                     <a class="col-md-2" href="./TinTuc">TIN TỨC</a>
+                     <a class="col-md-3" href="./LienHe">LIÊN HỆ</a>
+                 </div>
+                 <div class="col-md-1">
+                     <button class="myslider-bar" onclick="_open()"><img src="~/Content/image/white_menu_ham.png" width="30" height="30" /></button>
+                     <div class="sidebar-border-right" style="display:none" id="mySidebar">
+                         <button onclick="_close()" class="bar-item">Close &times;</button><br />
+                         <a href="./GioiThieu" class="bar-item-button">Giới Thiệu</a><br />
+                         <a href="./SanPham" class="bar-item-button">Sản Phẩm</a><br />
+                         <a href="./TinTuc" class="bar-item-button">Tin Tức</a><br />
+                         <a href="./LienHe" class="bar-item-button">Liên Hệ</a><br />
+                     </div>
+                </div>
+              </div>
+         </div>
+       <div class="clear"></div>
+    </div>
+    <marquee id="marq" scrollamount="5" direction="left" loop="50" scrolldelay="5" behavior="alternate"  onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#"><img src="~/Content/image/banh-ngao.jpg" title="Bánh Ngào" width="400" height="300" /> </a>
+        <a href="#"><img src="~/Content/image/banh-da-xuc-hen.jpg" title="Bánh Đa Xúc Hến" width="400" height="300" /></a>
+        <a href="#"><img src="~/Content/image/banhmuot.jpg" title="Bánh Mướt" width="400" height="300" /> </a>
+        <a href="#"><img src="~/Content/image/thành viên tương nam đàn 2.jpg"title="Tương Nam Đan" width="400" height="300" /></a>
+        <a href="#"><img src="~/Content/image/cam.png" title="Cam Xã Đài"width="400" height="300" /></a>
+    </marquee>
+
+</div>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Signup";
+}
+<link href="~/Content/signup.css" rel="stylesheet" />
+<div class="container">
+    <h2 class="signup">ĐĂNG KÝ</h2>
+    <form action="/action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+            <label><b>Email</b></label>
+            <input type="text" class="taikhoan" placeholder="Enter Email" name="email" required>
+
+            <label><b>Mật Khẩu</b></label>
+            <input type="password" class="taikhoan" placeholder="Enter Password" name="psw" required>
+
+            <label><b>Nhập Lại Mật Khẩu</b></label>
+            <input type="password" class="taikhoan" placeholder="Repeat Password" name="psw-repeat" required>
+            <input type="checkbox" checked="checked">Lưu Tài Khoản
+            <p>Bạn đồng ý tất cả các điều khoản<a href="#">Riêng Tư & Bảo Mật</a>.</p>
+
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Hủy</button>
+                <button type="submit" class="signupbtn">Đăng Ký</button>
+            </div>
+        </div>
+    </form>
+</div>
+

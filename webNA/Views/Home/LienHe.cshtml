@@ -1,0 +1,31 @@
+﻿
+<link href="~/Content/Contact.css" rel="stylesheet" />
+
+<div class="container">
+    <h3 class="contact">LIÊN HỆ</h3>
+    <form action="/action_page.php">
+        <label for="fname">Họ Tên</label>
+        <input type="text" class="taikhoan" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Tên</label>
+        <input type="text" class="taikhoan" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Thành Phố</label>
+        <select id="country" class="taikhoan" name="country">
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="Thành Phố Hồ Chí Minh">Thành Phố Hồ Chí Minh</option>
+            <option value="Đà Lạt">Đà Lạt</option>
+            <option value="Nha Trang">Nha Trang</option>
+            <option value="Hải Phòng">Hải Phòng</option>
+            <option value="Lào Cai">Lào Cai</option>
+            <option value="Cà Mau">Cà Mau</option>
+            <option value="Bình Dương">Bình Dương</option>
+            <option value="Huế">Huế</option>
+            <option value="Hà Tĩnh">Hà Tĩnh</option>
+        </select>
+
+        <label for="subject">Nội Dung</label>
+        <textarea class="taikhoan" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <input type="submit" value="Submit" src="~/Views/Home/Index.cshtml">
+    </form>
+</div>

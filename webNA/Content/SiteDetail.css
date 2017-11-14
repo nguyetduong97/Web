@@ -1,0 +1,206 @@
+﻿.detai_sanpham .main_col_left_cus1 {
+    width: 35%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.simpleLens-container {
+    display: table;
+    position: relative;
+}
+.detai_sanpham .main_col_left_cus1 .simpleLens-lens-image, .detai_sanpham .main_col_left_cus1 .simpleLens-big-image-container {
+    width: 100%;
+    height: auto;
+}
+.simpleLens-big-image-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    height: 300px;
+    width: 350px;
+}
+.simpleLens-lens-image {
+    height: auto !important;
+    width: 350px;
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    box-shadow: none;
+    float: none;
+    position: relative;
+}
+.simpleLens-big-image img{
+    width:70%;
+}
+.simpleLens-container, .simpleLens-big-image {
+    width:70%;
+}
+.body_thumb_content {
+    padding: 10px;
+    box-sizing: border-box;
+}
+.border_images {
+    border: 1px solid #CCC;
+    padding: 2px;
+}
+
+.detai_sanpham .main_col_right_cus1 {
+    width: 62%;
+    -webkit-box-sizing: border-box;
+    
+    box-sizing: border-box;
+}
+.detai_sanpham .main_col_right_cus1 .list_body_left_cus1 {
+        width: 25% !important;
+        box-sizing: border-box;
+}
+.main_col_right {
+    float: right;
+
+}
+.list_body_left {
+    float: left;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+.detai_sanpham .main_col_right_cus1 .list_body_right_cus1 {
+    width: 75% !important;
+    box-sizing: border-box;
+}
+
+.list_body_right {
+
+    float: left;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    font-weight: bolder;
+}
+.detai_sanpham .main_col_right_cus1 .line_top_1 {
+    height: 15px;
+}
+.detai_sanpham .main_col_right_cus1 .gia_thanhtien {
+    font-size: 20px;
+    color: #ff9904;
+    line-height: 26px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.gia_thanhtien {
+    clear: both;
+}
+.product_details_cart {
+    margin-bottom: 20px;
+}
+.product-quantity {
+    margin-top: 25px;
+    position: relative;
+}
+.detai_sanpham .product_details_cart .numbers-row {
+    float: left;
+}
+.numbers-row {
+    display: inline-block;
+    position: relative;
+}
+.detai_sanpham .main_col_right_cus1 .buttontext {
+    background: #777;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 35px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 38px;
+    cursor: pointer;
+}
+.left {
+    float: left;
+}
+
+.detai_sanpham .product_details_cart .intext {
+    border: none;
+    color: #555555;
+    font-size: 14px;
+    height: 38px;
+    text-align: center;
+    width: 73px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+}
+.detai_sanpham .main_col_right_cus1 .buttontext {
+    background: #777;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 35px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 38px;
+    cursor: pointer;
+}
+.detai_sanpham .product_details_cart .icon_body_sosanh_cus1, .detai_sanpham .product_details_cart .icon_body_love_cus1 {
+    display: none;
+}
+.icon_body {
+    width: 41px;
+    text-align: center;
+    height: 41px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    background: none;
+    border: 1px solid #f0f0f0;
+    margin-left: 10px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+detai_sanpham .product_details_cart .icon_body_sosanh_cus1, .detai_sanpham .product_details_cart .icon_body_love_cus1 {
+    display: none;
+}
+a.lightbox {
+    display: block;
+    text-align: center;
+}
+.detai_sanpham .product_details_cart .product-bottom {
+    padding-top: 0px;
+}
+.right {
+    float: right;
+}
+
+.social_network_right {
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+}
+.detai_sanpham .main_col_right_cus1 .shopng-btn {
+    font-size: 16px;
+    margin-left: 12px;
+    margin-top: 0;
+    color: #fff;
+    border: none;
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+
+    -webkit-transition: all 0.7s ease 0s;
+    background: #ff9904;
+    line-height: 1;
+    outline: none;
+}
+.shopng-btn {
+    margin-right: 16px;
+    padding: 10px;
+}
+.clear {
+    clear: both;
+}

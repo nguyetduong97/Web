@@ -1,0 +1,34 @@
+﻿@model webNA.Areas.Admin.Models.LoginModel 
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/Areas/Admin/Assets/css/Login.css" rel="stylesheet" />
+<script src="~/Areas/Admin/Assets/js/prefixfree.min.js"></script>
+<div class="container">
+    <h2 class="dn">ĐĂNG NHẬP</h2>
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+    @Html.ValidationSummary(false,"", new { @class= "text-danger"})
+    <div class="container">
+        <label><b>Tên Người Dùng</b></label>
+        <br />
+        @Html.TextBoxFor(model=>model.UserName, new { @class ="taikhoan", @autofocus="autofocus" })
+        <!--input type="text" class="taikhoan" placeholder="Enter Username" name="uname" required>-->
+        <br />
+        <label><b>Mật Khẩu</b></label>
+
+        @Html.PasswordFor(model => model.Password, new { @class = "taikhoan" })
+
+        <!--<input type="password" class="taikhoan" placeholder="Enter Password" name="psw" required>-->
+
+        <button type="submit">Đăng Nhập</button>
+    </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Hủy</button>
+        </div>
+
+}
+
+</div>
+

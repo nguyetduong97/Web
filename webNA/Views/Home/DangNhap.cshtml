@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+<link href="~/Content/login.css" rel="stylesheet" />
+<div class="container">
+    <h2 class="dn">ĐĂNG NHẬP</h2>
+
+    <form action="/action_page.php">
+        <div class="imgcontainer">
+            <img src="~/Content/imageslogin/user.png" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label><b>Tên Người Dùng</b></label>
+            <br />
+            <input type="text" class="taikhoan" placeholder="Enter Username" name="uname" required>
+            <br />
+            <label><b>Mật Khẩu</b></label>
+            <input type="password" class="taikhoan" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Đăng Nhập</button>
+            <input type="checkbox" checked="checked">Lưu Tài Khoản
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Hủy</button>
+            <span class="psw">Quên <a href="#">Mật Khẩu?</a></span>
+        </div>
+    </form>
+</div>
